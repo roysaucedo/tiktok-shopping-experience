@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +8,16 @@
     <link rel="stylesheet" href="output.css">
 </head>
 <body>
-    <div class="w-auto flex justify-center items-center p-4">
-        <h1 class="text-slate-500 text-3xl">Hello World</h1>
+    <!-- WRAPPER -->
+    <div class="snap-mandatory snap-y w-screen h-screen overflow-scroll">
+        <!-- SLIDE 1 -->
+        <div class="snap-start w-screen h-screen flex justify-center items-center">
+            <img class="w-auto min-h-full" src="/imgs/img-1.png" alt="Img 1">
+        </div>
+         <!-- SLIDE 2 -->
+        <div class="snap-start w-screen h-screen flex justify-center items-center">
+            <img class="w-auto min-h-full" src="/imgs/img-2.png" alt="Img 1">
+        </div>
     </div>
     
 <script src="app.js"></script>
